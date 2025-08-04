@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Mustopha';
+    src: url('../../../public//font//Mustopha.ttf') format('truetype');
+}
+.Css-header-bg-logo {
+    background: #e9f0ff;
+}
+.Css-header-shadow-bottom {
+    box-shadow: #2123261a 0 10px 10px -10px;
+}
+.Css-space-top-bottom-middle-header {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.Css-maulana-azad-text-eng {
+    color: #03045e;
+}
+.Css-maulana-azad-text-eng {
+    font-family: Mustopha, sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 41px;
+}
+@media (min-width: 1200px) {
+    .Css-affiliated-text {
+        font-size: 16px;
+    }
+}
+.Css-affiliated-text {
+    color: #975200;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.Css-urdu-maulana-azad-text{
+    font-family: Mustopha, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #03045e;
+    line-height: 33px;
+}
+.Css-main-logo-height{
+    height: 88px;
+    width: 92px;
+    filter: invert(.2);
+}
