@@ -1,0 +1,137 @@
+ .hamburger-btn {
+          background: none;
+          border: none;
+          cursor: pointer;
+          position: fixed;
+          color: #000;
+          right: 1rem;
+          margin-top: 17px;
+        }
+
+        .overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0,0,0,0.35);
+          z-index: 1100;
+        }
+
+        .sidebar {
+          position: fixed;
+          top: 0;
+          right: 0;
+          width: 303px;
+          height: 100vh;
+          background: #fff;
+          box-shadow: -2px 0 8px rgba(0,0,0,0.15);
+          transform: translateX(100%);
+          transition: transform 0.3s ease;
+          overflow-y: auto;
+          z-index: 1150;
+          display: flex;
+          flex-direction: column;
+        }
+        .sidebar.open {
+          transform: translateX(0);
+        }
+        .sidebar-header {
+          display: flex;
+          justify-content: flex-end;
+          padding: 1rem;
+          border-bottom: 1px solid #ddd;
+          background: #f1f1f1;
+        }
+        .close-btn {
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+        nav ul.sidebar-menu,
+        nav ul.submenu {
+          list-style: none;
+          margin: 0;
+        }
+         nav ul.sidebar-menu,
+        nav ul.submenu > li{
+             border-top: 1px solid #eee;
+        }
+       nav ul.sidebar-menu,
+        nav ul.submenu > li:last-child{
+             border-bottom: none;
+        }
+        
+        nav ul.sidebar-menu > li {
+          border-bottom: 1px solid #eee;
+        }
+        .sidebar-link {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 0.70rem;
+          font-weight: 400;
+          font-size: 16px;
+          color: #222;
+          text-decoration: none;
+          cursor:pointer;
+        }
+        .sidebar-link:hover {
+          background-color: #f0f0f0;
+        }
+
+        .menu-toggle {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.75rem 1rem;
+          font-weight: 400;
+          font-size: 16px;
+          cursor: pointer;
+          user-select: none;
+          color: #222;
+        }
+            .submenu {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            }
+            .submenu.open {
+            max-height: 500px; 
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+            }
+        .submenu.nested {
+          padding-left: 1.5rem;
+        }
+        .css-padding-leftnavitem{
+             padding-left: 21px;
+        }
+        .Css-maulana-azad-text-eng-sidebar{
+            font-family: Mustopha, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21px;
+            color: #2d8127 !important;
+        }
+        .Css-affiliated-text-sidebar {
+        color: #975200;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+    .Css-enquiry-btn-mob-sidebar {
+    color: #fff;
+    background: var(--my-primary-color);
+    padding: 10px 13px;
+    margin: 18px;
+    border-radius: 5px;
+}
+.Css-enquiry-button{
+   border-bottom: none;
+   margin-top: 18px;
+}

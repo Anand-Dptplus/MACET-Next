@@ -1,4 +1,5 @@
-.stickyBottom {
+/* Latest News */
+.cssBackgroundLatestNews {
     background-color: var(--my-primary-color);
   }
   .latestNews {
@@ -22,7 +23,6 @@
     padding-top: 2px;
     padding-bottom: 2px;
   }
-  
   .newsWrapper {
     overflow: hidden;
     position: relative;
@@ -36,7 +36,6 @@
     display: inline-block;
     padding-top: 4px;
   }
-  
   .newsContent img {
     vertical-align: middle;
   }

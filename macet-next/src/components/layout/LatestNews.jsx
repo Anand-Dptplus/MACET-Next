@@ -5,7 +5,7 @@ import { FaBell } from 'react-icons/fa';
 const LatestNews = ({ newsItems }) => {
   return (
     <>
-      <div id="marque-section" className="stickyBottom">
+      <div id="marque-section" className="cssBackgroundLatestNews">
         <div className="marginTop">
           <div className="row">
             <div className="col-2 col-md-2 latestNews custom-btn btn-11">
