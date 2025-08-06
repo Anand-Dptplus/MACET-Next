@@ -32,3 +32,126 @@ a {
   justify-content: center;
   align-items: center;
 }
+.Css-space{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.Css-description{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 8px;
+    color: #4e4e4e;
+    text-align: justify;
+}
+.btn-green{
+    position: relative;
+    background: #00246b;
+    color: #fff;
+    border: none;
+    z-index: 1;
+    text-transform: capitalize;
+    padding: 7px 33px;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.cssUnderlineHeading{
+    display: flex;
+}
+.cssHeadingUnderlineText{
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.cssHeadingUnderlineText:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #AB0606;
+    background: linear-gradient(90deg, #ab0606 29%, #f2f2f2 100%);
+    bottom: 0;
+    left: 0;
+}
+.Css-fotter-wrapper{
+  background-color: #002935;
+}
+.Css-fotter-wrapper h5,h6,a,li{
+  color: #fff;
+  list-style: none;
+}
+.Css-footer-heading{
+  font-size: 25px;
+    margin-bottom: 25px;
+}
+.cssSecondHeadingFooter{
+   font-size: 17px;
+    color: #83acf9;
+    margin-bottom: 15px;
+}
+.Css-fotter-wrapper ul{
+  padding: 0;
+  margin: 0;
+}
+.Css-fotter-wrapper ul li{
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .Css-space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cssHeadingUnderlineText{
+    font-size: 28px;  
+  }
+  .cssUnderlineHeading{
+    justify-content: center;
+  }
+}
+/*--------COPYRIGHT SECTION----------*/
+  .copyrightArea {
+    background-color: #000000;
+    padding: 13px 0;
+    color: #ffffff;
+  }
+  .copyRightText {
+    margin: 0;
+    font-size: 16px;
+  }
+  .macet-link{
+    color: var(--secondary-red);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .policy-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size:16px;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+  }
+  .policy-links a:hover {
+    color: var(--secondary-red);
+  }
+  .divider {
+    margin: 0 5px;
+    color: #aaa;
+  }
+  @media screen and (max-width:400px) {
+    .policy-links a {
+      font-size: 14px;
+      margin: 0px;
+    }
+    .copyRightText{
+      font-size: 14px;
+    }
+  }
+  @media (min-width:401px) and (max-width:450px) {
+    .policy-links a {
+      font-size: 16px;
+      margin: 0px;
+    }
+  }

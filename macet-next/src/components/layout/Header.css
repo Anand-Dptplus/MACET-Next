@@ -185,7 +185,7 @@
    position: fixed !important;
    top: 0 !important;
    width: 100%;
-   z-index: 1100;
+   z-index: 1000;
     left: 0;
   }     
  .cssHeaderPRelativeBS.is-sticky {
@@ -257,4 +257,11 @@
         display: flex;
         align-items: center;
     }
+    .Css-mob-header-shadow.is-sticky {
+      position: sticky;
+      top: 33px !important;  
+      z-index: 1050;
+      background: #fff;
+    }
+
 }

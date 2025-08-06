@@ -11,21 +11,24 @@ import Sidebar from "./Sidebar";
 const Header = ({newsItems}) => {
     const latestNewsRef = useRef(null);
     const navRef = useRef(null);
+    const mobHeaderRef = useRef(null);  
 
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        latestNewsRef.current.classList.add('is-sticky');
-        navRef.current.classList.add('is-sticky');
-      } else {
-        latestNewsRef.current.classList.remove('is-sticky');
-        navRef.current.classList.remove('is-sticky');
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      latestNewsRef.current?.classList.add('is-sticky');
+      navRef.current?.classList.add('is-sticky');
+      mobHeaderRef.current?.classList.add('is-sticky'); 
+    } else {
+      latestNewsRef.current?.classList.remove('is-sticky');
+      navRef.current?.classList.remove('is-sticky');
+      mobHeaderRef.current?.classList.remove('is-sticky');
+    }
+  };
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+}, []);
   return (
     <>
         <div ref={latestNewsRef} className="cssBackgroundLatestNews">
@@ -294,7 +297,7 @@ const Header = ({newsItems}) => {
           </div>       
         </header>
         {/* Mobile Header */}
-        <div className="container-fluid Css-mob-header-shadow d-block d-lg-none">
+        <div ref={mobHeaderRef} className="container-fluid Css-mob-header-shadow d-block d-lg-none">
            <div className="row">
             <div className="col-12">
               <div className="Css-mobile-header">

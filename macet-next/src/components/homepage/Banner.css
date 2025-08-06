@@ -119,10 +119,129 @@
     text-decoration: none;
     color: white;
   }
+  .s-soft {
+      left: 0;
+      z-index: 1000;
+      transition: .3s;
+      position: fixed;
+      top: 44%;
+  }
+  .s-item{
+    display: block;
+    width: 40px;
+    height: 47px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    transition: .2s linear;
+    padding-right: 5px;
+    border-radius: 0 40px 40px 0;
+    margin-bottom: 5px;
+  }
+  .s-item:hover {
+    width: 80px;
+  }
+  .s-item, .s-item:hover {
+    border-radius: 0 40px 40px 0;
+  }
+  .cssFacebooksidebarIcon{
+    background-color: #3b5999;  
+  }
+  .cssTwittersidebarIcon{
+    background-color: #1e3050;  
+  }
+  .cssLinkdinsidebarIcon{
+    background-color: #0e76a8;  
+  }
+ .fixed-buttons {
+  right: 0;
+  z-index: 9999;
+  position: fixed;
+  top: 44%;
+}
+
+.side-button {
+  writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: var(--my-secondary-color);
+    color: #fff;
+    padding: 10px 5px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 2px 5px 5px 2px;
+    font-size: 15px;
+    box-shadow: 0 2px 5px #0000004d;
+    transition: background-color .3s;
+}
+
+.arrow-icon {
+  display: inline-block;
+  transform: rotate(-180deg);
+  margin-bottom: 0;
+}
 @media (min-width: 1200px) {
   .Css-prev-icon{
     width: auto;
     left: 6%;
     z-index: 9999999 !important;
   } 
+}
+ .Css-banner-first-btn {
+        color: #4d4e4e;
+        padding: 6px 14px;
+        border-radius: 5px;
+        font-size: 17px;
+        background: #fff1e1;
+        border: 1px solid rgba(255, 255, 255, .18);
+        font-weight: 600;
+    }
+    .Css-banner-second-btn {
+        color: #4d4e4e;
+        padding: 6px 14px;
+        background: #fff1e1;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, .18);
+        font-size: 17px;
+        font-weight: 600;
+    }
+.Css-banner-first-btn, .Css-banner-second-btn {
+    transition: transform .3s;
+    display: inline-block;
+}
+.Css-banner-text-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.typewriter-text {
+  display: inline-block;
+  font-size: 6vw;
+    color: #e1dede;
+    letter-spacing: 5px;
+}
+@media (min-width: 768px) {
+    .Css-banner-height{
+        height: 88vh;
+        background-size: cover;
+    }
+}
+@media (max-width: 767px) {
+     .Css-banner-text-button{
+       width: 100%;
+    }
+    .typewriter-text{
+      font-size: 13vw;
+      margin-bottom: 30px;
+    }
+    .Css-banner-height{
+      height: 50vh;
+    }
+  
 }

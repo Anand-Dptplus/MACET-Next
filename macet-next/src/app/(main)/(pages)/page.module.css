@@ -1,0 +1,12 @@
+.line1 {
+    padding: 0 0 0 15px;
+    border-style: solid;
+    border-width: 0 0 0 3px;
+    border-color: #002468;
+}
+@media (min-width: 1400px) {
+    .cssAboutImageLargeScH{
+    height: 340px;
+    object-fit: cover;
+}
+}
