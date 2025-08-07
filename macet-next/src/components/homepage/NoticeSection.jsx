@@ -1,10 +1,13 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import { fetchFromApi } from "@/lib/api"; // Make sure this import is correct
 import "./NoticeSection.css";
 
-const NoticeSection = ({ noticeData }) => {
+const NoticeSection = () => {
   const noticeRef = useRef(null);
   const academicRef = useRef(null);
+
+  const [noticeData, setNoticeData] = useState([]);
 
   const academicNotices = [
     { title: "Republic Day", date: "January 26" },
@@ -16,22 +19,31 @@ const NoticeSection = ({ noticeData }) => {
   ];
 
   useEffect(() => {
+    // Fetch notice data on mount
+    const fetchData = async () => {
+      const data = await fetchFromApi('ALLNews/WebNewsType?newstype=NB', 'notice');
+      setNoticeData(data || []);
+    };  
+    fetchData();
+
     const initializeScroll = (containerRef) => {
       if (!containerRef.current) return;
 
       const container = containerRef.current;
       const content = container.querySelector(".scroller-content");
+      if (!content) return;
       const clone = content.cloneNode(true);
       container.appendChild(clone);
 
       let paused = false;
       const scrollSpeed = 0.5;
+      const contentHeight = content.scrollHeight;
 
       const autoScroll = () => {
         if (!paused) {
           container.scrollTop += scrollSpeed;
-          if (container.scrollTop >= content.scrollHeight) {
-            container.scrollTop = 0;
+          if (container.scrollTop >= contentHeight) {
+            container.scrollTop = container.scrollTop - contentHeight;
           }
         }
         requestAnimationFrame(autoScroll);
@@ -39,12 +51,16 @@ const NoticeSection = ({ noticeData }) => {
 
       container.addEventListener("mouseenter", () => (paused = true));
       container.addEventListener("mouseleave", () => (paused = false));
-
       autoScroll();
     };
 
-    initializeScroll(noticeRef);
-    initializeScroll(academicRef);
+    // Delay scroll initialization until data is loaded
+    const scrollTimeout = setTimeout(() => {
+      initializeScroll(noticeRef);
+      initializeScroll(academicRef);
+    }, 500);
+
+    return () => clearTimeout(scrollTimeout);
   }, []);
 
   return (
@@ -76,7 +92,7 @@ const NoticeSection = ({ noticeData }) => {
               <h2 className="Css-heading-notice-section">📢 Notice Board</h2>
               <div className="scroller-container" ref={noticeRef}>
                 <div className="scroller-content">
-                  {noticeData.map((item, i) => (
+                  {[...noticeData, ...noticeData].map((item, i) => (
                     <div
                       className="notice-item"
                       key={i}
@@ -108,6 +124,7 @@ const NoticeSection = ({ noticeData }) => {
                       </a>
                     </div>
                   ))}
+
                 </div>
               </div>
             </div>

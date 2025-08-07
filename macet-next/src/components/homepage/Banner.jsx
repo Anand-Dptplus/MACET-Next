@@ -1,12 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "./Banner.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FaArrowUp } from "react-icons/fa6";
+import { FaLinkedinIn, FaArrowUp } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
+import "./Banner.css";
 
 const mobileBannerImg = [
   { id: 1, bannerImg: '/images/macetimages/mobilebanner/banner1-mob.webp', title: 'Banner 1' },
@@ -18,19 +17,21 @@ const mobileBannerImg = [
 
 const Banner = ({ bannerimg }) => {
   const [isMobile, setIsMobile] = useState(false);
-  const fullText = "MACET";
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
-  const [typingSpeed, setTypingSpeed] = useState(250);
+  const fullText = "MACET";
+  const typingSpeed = 250;
+  const imagesToShow = isMobile ? mobileBannerImg : bannerimg;
 
-  // Bootstrap js import
+  // Mobile check
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      import("bootstrap/dist/js/bootstrap.bundle.min.js");
-    }
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // Typing effect for the banner text
+  // Typing effect
   useEffect(() => {
     const handleTyping = () => {
       const updatedText = isDeleting
@@ -50,26 +51,49 @@ const Banner = ({ bannerimg }) => {
     return () => clearTimeout(timer);
   }, [text, isDeleting]);
 
-  // Mobile banner
+  // Bootstrap import + force start carousel manually
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
+    const startCarousel = async () => {
+      const bootstrap = await import("bootstrap/dist/js/bootstrap.bundle.min.js");
+      const el = document.querySelector("#carouselExampleFade");
+      if (el && bootstrap && window.bootstrap) {
+        // Destroy old instance if any
+        const existing = window.bootstrap.Carousel.getInstance(el);
+        if (existing) {
+          existing.dispose();
+        }
 
-  const imagesToShow = isMobile ? mobileBannerImg : bannerimg;
+        // Create new carousel instance and force ride
+        new window.bootstrap.Carousel(el, {
+          interval: 3000,
+          ride: "carousel", // force it to start automatically
+          pause: false,
+          wrap: true,
+        });
+      }
+    };
+
+    startCarousel();
+  }, [imagesToShow]);
 
   return (
     <>
       <div className="Css-p-relative">
         <div>
-          <div id="carouselExampleFade"  className="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleFade" className="carousel slide carousel-fade">
             <div className="carousel-inner">
               {imagesToShow?.map((item, index) => (
-                <div className={`carousel-item Cssbannerimgheight ${index === 0 ? "active" : ""}`} key={item.id}>
+                <div
+                  key={item.id}
+                  className={`carousel-item Cssbannerimgheight ${index === 0 ? "active" : ""}`}
+                >
                   <div className="Css-banner-height">
-                    <Image src={item.bannerImg} fill alt={item.title} className="w-100" />
+                    <Image
+                      src={item.bannerImg}
+                      fill
+                      alt={item.title}
+                      className="w-100"
+                    />
                   </div>
                   <div className="Css-banner-text-button">
                     <h2 className="typewriter-text">{text}</h2>
@@ -85,17 +109,29 @@ const Banner = ({ bannerimg }) => {
                 </div>
               ))}
             </div>
-            <button className="carousel-control-prev Css-prev-icon" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon Css-carousel-prev-icon-z" aria-hidden="true"></span>
+            <button
+              className="carousel-control-prev Css-prev-icon"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span className="carousel-control-prev-icon Css-carousel-prev-icon-z" />
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span className="carousel-control-next-icon" />
               <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
       </div>
+
+      {/* Social Links */}
       <div className="s-soft d-md-block d-none">
         <Link href="https://www.facebook.com/macet.ac.in" target="_blank" className="s-item cssFacebooksidebarIcon">
           <FaFacebookF size={22} />
@@ -107,10 +143,14 @@ const Banner = ({ bannerimg }) => {
           <FaLinkedinIn size={21} />
         </Link>
       </div>
+
+      {/* Enquiry Button */}
       <div className="fixed-buttons d-none d-md-block">
         <Link href="/enquiry" className="side-button">
-          <span className="arrow-icon"><FaArrowUp size={16} style={{ paddingRight: "5px" }} /></span>
           ENQUIRY NOW
+          <span className="arrow-icon">
+            <FaArrowUp size={16} style={{ paddingRight: "5px" }} />
+          </span>
         </Link>
       </div>
     </>

@@ -1,0 +1,41 @@
+.embla {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .embla__container {
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .embla__slide {
+    position: relative;
+    padding: 5px 3px;
+  }
+.embla__prev,
+.embla__next {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.Css-prev-next-button {
+  background-color: var(--my-secondary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border: none;
+}
+
+.Css-prev-next-button:hover {
+  background: var(--my-secondary-color);
+  opacity: 0.9;
+}
