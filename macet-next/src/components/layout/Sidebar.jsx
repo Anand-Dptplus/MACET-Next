@@ -69,7 +69,7 @@ export default function Sidebar() {
                 <li><Link href="/about-us" onClick={closeSidebar} className="sidebar-link">About College</Link></li>
                 <li><Link href="/about-millat-education-society" onClick={closeSidebar} className="sidebar-link">About Millat Education Society</Link></li>
                 <li><Link href="/mission-vision" onClick={closeSidebar} className="sidebar-link">Vision & Mission</Link></li>
-                <li><Link href="/governing-body-of-macet" onClick={closeSidebar} className="sidebar-link">The Governing Body of MACET</Link></li>
+                <li><Link href="/governing-body" onClick={closeSidebar} className="sidebar-link">The Governing Body of MACET</Link></li>
                 <li><Link href="/college-administration" onClick={closeSidebar} className="sidebar-link">College Administration</Link></li>
               </ul>
             </li>

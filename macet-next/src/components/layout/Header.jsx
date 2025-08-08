@@ -112,7 +112,7 @@ useEffect(() => {
                     <li><Link href="/about-us" className="dropdown-item">About College</Link></li>
                     <li><Link href="/about-millat-education-society" className="dropdown-item">About Millat Education Society</Link></li>
                     <li><Link href="/mission-vision" className="dropdown-item">Vision & Mission</Link></li>
-                    <li><Link href="/governing-body-of-macet" className="dropdown-item">The Governing Body of MACET</Link></li>
+                    <li><Link href="/governing-body" className="dropdown-item">The Governing Body of MACET</Link></li>
                     <li><Link href="/college-administration" className="dropdown-item">College Administration</Link></li>                
                   </ul>
                 </li>

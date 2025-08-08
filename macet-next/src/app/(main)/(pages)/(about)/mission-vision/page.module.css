@@ -1,0 +1,133 @@
+/* Mission and Glance */
+.cssGlanceMission{
+    background-color: #e2edfd;
+}
+.macetMissionCard {
+    position: relative;
+    background: white;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.macetMissionCard:hover {
+    transform: translateY(5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.macetMissionTitle {
+    position: absolute;
+    top: -39px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffd748;
+    padding: 5px 40px;
+    border-radius: 20px 20px 0 0;
+    font-size: 20px;
+    color: #000;
+}
+.macetMissionVShape {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ffd748;
+    z-index: 2;
+}
+.macetMissionContent {
+    display: flex;
+    align-items: center;
+}
+.macetMissionIconBox {
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+}
+.macetMissionIcon1,
+.macetMissionIcon2 {
+    width: 75px;
+}
+.macetMissionLine {
+    width: 1px;
+    height: 138px;
+    background: #ccc;
+    margin-right: 15px;
+}
+.macetMissionDetailsWrapper {
+    margin-top: 30px;
+}
+.macetMissionDetail {
+    display: flex;
+    align-items: flex-start;
+}
+.macetMissionCheckIcon {
+    margin-right: 10px;
+    color: #ffd748;
+    font-size: 18px;
+}
+.macetMissionDescription {
+    color: #4e4e4e;
+    text-align: justify;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.macetMissionJustify {
+    text-align: justify;
+}
+.macetMissionVisionCard {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .macetMissionCard {
+        height: unset;
+        padding: 20px 15px 15px;
+    }
+    .macetMissionTitle {
+        padding: 5px 50px;
+    }
+    .macetMissionContent {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .macetMissionIconBox {
+        margin: 0 0 15px 0;
+    }
+    .macetMissionIcon1,
+    .macetMissionIcon2 {
+        width: 75px;
+    }
+    .macetMissionLine {
+        display: none;
+    }
+    .macetMissionDetail .macetMissionCheckIcon {
+        margin-right: 5px;
+    }
+    .macetMissionVisionCard {
+        margin-top: 40px;
+    }
+}
+.macetGlanceImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.macetGlanceImage {
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+.macetGlanceImage:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}

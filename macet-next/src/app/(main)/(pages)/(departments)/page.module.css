@@ -1,0 +1,77 @@
+.activeTab {
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+}
+.aboutButtonsContainer {
+  background: #ab0606;
+  padding: 5px;
+  border-radius: 50em;
+}
+.aboutButtonsContainer:hover {
+  animation: bounce 0.5s;
+}
+@keyframes bounce {
+  0% { transform: translateY(0);}
+  25% { transform: translateY(-4px);}
+  50% { transform: translateY(0);}
+  75% { transform: translateY(-2px);}
+  100% { transform: translateY(0);}
+}
+.customBtn {
+  background-color: #990000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0px 0px 0px 8px;
+  min-width: 100px;
+  font-weight: 600;
+  font-family: sans-serif;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.customBtn:hover {
+  background-color: #b30000;
+  color: white;
+}
+.btnText {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+}
+@media (min-width: 1400px) {
+  .btnText { font-size: 14px; }
+  .btnIcon { width: 35px; height: 35px; }
+  .aboutButtonsContainer { padding: 8px; }
+}
+@media (max-width: 389px) {
+  .btnText { font-size: 12px; }
+}
+.btnIcon {
+  background-color: white;
+  color: #333;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.btnIcon img {
+  width: 22px;
+}
+.btnFlexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}

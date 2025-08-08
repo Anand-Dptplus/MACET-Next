@@ -1,0 +1,74 @@
+.millatDescription{
+   color: #505050;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Founder card */
+.millatMessageCard {
+  background: transparent;
+  text-align: center;
+  width: 300px;
+}
+.millatMessageImg {
+  position: relative;
+  width: 255px;
+  height: 255px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px #2a71d080;
+  overflow: hidden;
+}
+.millatMessageImg:before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border-radius: 50%;
+  border: 2px dashed #2a71d0;
+}
+.millatMessageImg img {
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  padding: 24px 26px 26px;
+  width: 100%;
+  height: 100%;
+  transition: transform .3s ease;
+}
+.millatMessageImg:hover img {
+  transform: scale(1.1);
+}
+.millatMessageCard h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 8px;
+}
+.millatMessageCard p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Responsive founder cards */
+@media (max-width: 767px) {
+  .millatMessageCard {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .millatFounderRow {
+    gap: 0;
+  }
+  .millatFounderCol {
+    margin-bottom: 16px;
+  }
+}

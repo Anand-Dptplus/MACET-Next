@@ -2,6 +2,7 @@ import { Roboto } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import ScrollToTop from '@/components/ScrollToTop';
+import TopLoader from 'nextjs-toploader';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -20,6 +21,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.variable}>
+       <TopLoader 
+          color="#29D" 
+          initialPosition={0.08} 
+          crawlSpeed={200} 
+          height={3} 
+          crawl={true}  
+          showSpinner={false} 
+          easing="ease" 
+          speed={200}
+        />
         {children}
         <ScrollToTop />
       </body>

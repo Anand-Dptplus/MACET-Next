@@ -1,0 +1,68 @@
+[
+  {
+    "img": "/images/about/AhmadAbdulHai.jpg",
+    "name": "Dr. Ahmad Abdul Hai",
+    "degree": "(MBBS, MS, FRCS)",
+    "role": "President"
+  },
+  {
+    "img": "/images/macetimages/Vice_Presedent.webp",
+    "name": "Mr. Syed Shafiuzzaman Mashhadi",
+    "degree": "(Former Member, Bihar Public Service Commission)",
+    "role": "Vice-President"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Mr. Ehsan Ahmad",
+    "degree": "IAS (Retd.)",
+    "role": "Secretary"
+  },    
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Mr. N. A. Shamsi",
+    "degree": "(Advocate, Patna High Court)",
+    "role": "Jt.Secretary"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Prof. (Dr.) Naheed Ahmad",
+    "degree": "(Professor, Patna University)",
+    "role": "Treasurer"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Mr. Matiur Rahman",
+    "degree": "(Chartered Accountant)",
+    "role": "Member"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Prof. (Dr.) Shamshad Hussain",
+    "degree": "(Former V.C. Magadh University)",
+    "role": "Member"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Dr. Imteyaz Mohsin",
+    "degree": "",
+    "role": "Member"
+  },
+  {
+    "img": "/images/macetimages/Dr-Asim-Kumar.webp",
+    "name": "Prof. (Dr.) Asim Kumar",
+    "degree": "(Director MACET)",
+    "role": "Ex-officio Member"
+  },
+  {
+    "img": "/images/about/Masood-Ahmad.webp",
+    "name": "Prof. (Dr.) Md Masood Ahmad",
+    "degree": "Ph.D, M.Tech., B.Sc. Engg.",
+    "role": "Professor,Dean Academic"
+  },
+  {
+    "img": "/images/macetimages/user.jpg",
+    "name": "Mr. Ozair Ahmad",
+    "degree": "",
+    "role": "Teacher’s Representative"
+  }
+]

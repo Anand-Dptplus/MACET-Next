@@ -185,7 +185,7 @@
    position: fixed !important;
    top: 0 !important;
    width: 100%;
-   z-index: 1000;
+   z-index: 10003333;
     left: 0;
   }     
  .cssHeaderPRelativeBS.is-sticky {
