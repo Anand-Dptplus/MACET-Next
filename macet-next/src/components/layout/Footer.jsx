@@ -3,6 +3,7 @@
     import { IoIosMail } from "react-icons/io";
     import Link from 'next/link';
     import Image from 'next/image';
+    import Script from 'next/script';
     
     const Footer = () => {
           const year = new Date().getFullYear();  
@@ -115,10 +116,13 @@
             <div className="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
                 <p className="copyRightText mb-0"> © {year} &nbsp;  
                 <Link href="/" className="macet-link"> MACET</Link>&nbsp; All Rights Reserved. Powered By &nbsp;
-                <a href="https://dotplus.in/" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://dotplus.in/" target="_blank" rel="noopener noreferrer">
                     <Image src="https://cdn.dotplus.in/cloud/dotplus/logo.png" alt="DotPlus Technologies Pvt. Ltd." title="DotPlus Technologies Pvt. Ltd." width={90} height={22}/>
-                </a>
+                </a> */}
+                    <span id="poweredBy" data-color="white"></span>
                 </p>
+                  <Script src="/js/powered.js" strategy="afterInteractive" />
+
             </div>
 
             {/* Right Side Links */}

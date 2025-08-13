@@ -1,0 +1,23 @@
+[
+  {
+    "img": "/images/department/electric/faculty/Mr_Intesar_Hasan.webp",
+    "name": "Mr. Intesar Hasan",
+    "batch": "2019",
+    "email": "hasan.intesar1975@gmail.com",
+    "contact": "9835530762"
+  },
+  {
+    "img": "/images/department/electric/faculty/Mr_Mohammad_Inayat_Ali.webp",
+    "name": "Mr. Md. Inayat Ali",
+    "batch": "2020",
+    "email": "inayat2k9bit@gmail.com",
+    "contact": "9693934790"
+  },
+  {
+    "img": "/images/department/electric/faculty/Mrs_Aaisha_Tasneem.webp",
+    "name": "Mrs. Aaisha Tasneem",
+    "batch": "2022",
+    "email": "aaisha.tasneem@gmail.com",
+    "contact": "8210295166"
+  }
+]

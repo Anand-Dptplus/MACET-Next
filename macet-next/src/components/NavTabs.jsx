@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import styles from '@/app/(main)/(pages)/(about)/about-us/page.module.css'
+import styles from '@/app/(main)/(pages)/about/about-us/page.module.css'
 
 const NavTabs = ({ tabs }) => {
   const searchParams = useSearchParams();
@@ -18,7 +18,7 @@ const NavTabs = ({ tabs }) => {
   }, [tabQuery, tabs]);
 
   return (
-    <div className="Css-space">
+    <div className="">
       <div className="container">
         <div className="row">
             <div className={styles.marginTopAboutButtons}>
@@ -30,12 +30,12 @@ const NavTabs = ({ tabs }) => {
                             onClick={() => setActiveTab(btn.id)}
                             >
                             <span className={styles.btnText}>{btn.label}</span>
-                            <span className={styles.icon}>
-                                <img src={btn.icon} alt={btn.alt} loading="lazy" />
+                            <span className={styles.cssDepartmentIcon}>
+                                {btn.icon}
                             </span>
                             </button>
                         </div>
-                    ))}
+                    ))}   
                 </div>
             </div>
 

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Dr. Syed Badie Asghar",
+    "degree": "Qualification: Ph.D, M.Sc. Engg., B.Sc. Engg.",
+    "role": "Designation: Associate Professor, Registrar",
+    "img": "/images/department/electric/faculty/Dr_Syed_Badie_Asghar.webp"
+  },
+  {
+    "name": "Mr. Intesar Hasan",
+    "degree": "Qualification: M.Tech., B.E.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/electric/faculty/Mr_Intesar_Hasan.webp"
+  },
+  {
+    "name": "Mrs. Aaisha Tasneem",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/electric/faculty/Mrs_Aaisha_Tasneem.webp"
+  },
+  {
+    "name": "Mr. Mohammad Inayat Ali",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/electric/faculty/Mr_Mohammad_Inayat_Ali.webp"
+  },
+  {
+    "name": "Mr. Md. Raza",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/electric/faculty/Mr_Md_Raza.webp"
+  },
+  {
+    "name": "Dr. Arshad Mohammad",
+    "degree": "Qualification: Ph.D",
+    "role": "Designation: Lecturer",
+    "img": "/images/department/electric/faculty/Dr_Arshad_Mohammad.webp"
+  },
+  {
+    "name": "Mrs. Meena Prasad",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/electric/faculty/Mrs_Meena_Prasad.webp"
+  },
+    {
+    "name": "Guest Faculty/Temporary",
+    "degree": "Faculty = 6 Nos.",
+    "img": "/images/macetimages/user.jpg"
+  }
+]

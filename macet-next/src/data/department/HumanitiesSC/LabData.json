@@ -1,0 +1,28 @@
+{
+  "labs": [
+    {
+      "src": "/images/department/humanities/chem.webp",
+      "caption": "  Chemistry Lab"
+    },
+    {
+      "src": "/images/department/humanities/chem2.webp",
+      "caption": "  Chemistry Lab"
+    },
+    {
+      "src": "/images/department/humanities/lang1.webp",
+      "caption": "Language Lab"
+    },
+    {
+      "src": "/images/department/humanities/lang2.webp",
+      "caption": "Language Lab"
+    },
+    {
+      "src": "/images/department/humanities/physics1.webp",
+      "caption": "   Physics Lab"
+    },
+    {
+      "src": "/images/department/humanities/physics2.webp",
+      "caption": " Physics Lab"
+    }
+  ]
+}

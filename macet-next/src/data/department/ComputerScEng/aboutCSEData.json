@@ -1,0 +1,15 @@
+{
+  "profile": {
+    "name": "Mr. Mazhar Eqbal",
+    "designation": "HoD, Computer Science And Engineering",
+    "image": "/images/macetimages/administrative/Mazhar-fp.webp",
+    "imageAlt": "Mr. Mazhar Eqbal",
+    "imageTitle": "Mr. Mazhar Eqbal"
+  },
+  "description": [
+    "The department of Computer Science & Engineering is the oldest dept of the college running right from the start of college in the year 1993. Since its inception, it has made significant progress. The dept offers four years B.Tech. Program with annual intake of 60 students.",
+    "The dept has modernized and well-equipped laboratory in the fields of Computer Software, Information Technology, Image Processing, Multimedia, Computer Hardware, Microprocessor and Digital Electronics. All the laboratories are having Window and Linux based operating system and are fully networked and have access to Internet.",
+    "The dept has highly qualified, experienced, dedicated and dynamic faculties and supporting staff. They are actively involved in Research and Development in the emerging areas of CSE such as Artificial Intelligence, Machine Learning, Data Computing, Computer Network and Security, Cloud Computing etc.",
+    "The placement of students in this dept has been far ahead of other departments. Large number of students are placed every year in various multi-national companies such as IBM, Infosys, Wipro, HCL, JIO, Airtel etc. through in campus and off campus recruitments."
+  ]
+}

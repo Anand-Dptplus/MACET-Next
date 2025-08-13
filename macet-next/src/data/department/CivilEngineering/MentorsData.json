@@ -1,0 +1,42 @@
+[
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "Mr. Ehraz Akhter",
+    "rollno": "301 to 335",
+    "batch": "6th/2021",
+    "email": "ehrazakhtar93@gmail.com",
+    "contact": "7550173254"
+  },
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "Mr. Waseem Akhter",
+    "rollno": "336 to 366",
+    "batch": "6th/2021",
+    "email": "er.waseemakhter@gmail.com",
+    "contact": "9334520362"
+  },
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "Mr. S. Akhter",
+    "rollno": "301 to 332",
+    "batch": "4th/2022",
+    "email": "akhteraec95@gmail.com",
+    "contact": "9279924416"
+  },
+  {
+    "img": "/images/department/civileng/faculty-profile/Mr_Sumit_Kumar_Sudhanshu.webp",
+    "name": "Mr. Sumit Kumar Sudhanshu",
+    "rollno": "301 to 320",
+    "batch": "2nd/2023",
+    "email": "sumitsudhansu@gmail.com",
+    "contact": "9023463940"
+  },
+  {
+    "img": "/images/department/civileng/faculty-profile/Mr_Zeeshan_Farooque.webp",
+    "name": "Mr. Zeeshan Farooque",
+    "rollno": "301 to 330",
+    "batch": "1st/2024",
+    "email": "farooquezeeshan@gmail.com",
+    "contact": "9760229712"
+  }
+]

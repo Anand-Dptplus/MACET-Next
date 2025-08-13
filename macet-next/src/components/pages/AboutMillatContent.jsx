@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/app/(main)/(pages)/(about)/about-millat-education-society/page.module.css'
+import styles from '@/app/(main)/(pages)/about/about-millat-education-society/page.module.css'
 
 const founders = [
 	{

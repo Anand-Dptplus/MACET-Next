@@ -1,0 +1,58 @@
+[
+  {
+    "img": "/images/department/mechnical/faculty/Mr_Kashif_Faridi.webp",
+    "name": "Mr. Kashif Faridi",
+    "batch": "1st & 2nd",
+    "email": "kashif2k3@gmail.com",
+    "contact": "7979032198"
+  },
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "ABC",
+    "batch": "1st & 2nd",
+    "email": "abc@gmail.com",
+    "contact": "9693934790"
+  },
+  {
+    "img": "/images/macetimages/administrative/Aon.webp",
+    "name": "Mr. Aon Ahmad",
+    "batch": "3rd & 4th",
+    "email": "aonahmad1@gmail.com",
+    "contact": "9608171997"
+  },
+  {
+    "img": "/images/department/mechnical/faculty/Dr_Md_Reyaz.webp",
+    "name": "Dr. Md. Reyaz",
+    "batch": "5th & 6th",
+    "email": "sohaibreyaz1972@gmail.com",
+    "contact": "9430558979"
+  },
+  {
+    "img": "/images/department/mechnical/faculty/Mr_S_Moazzam_Hussain.webp",
+    "name": "Mr. S. Moazzam Hussain",
+    "batch": "5th & 6th",
+    "email": "moazzam.hussein@gmail.com",
+    "contact": "7004016146"
+  },
+  {
+    "img": "/images/department/mechnical/faculty/Mrs_Saima_Farzeen.webp",
+    "name": "Mrs. Saima Farzeen",
+    "batch": "5th & 6th",
+    "email": "Smfarzeen10@gmail.com",
+    "contact": "9835497987"
+  },
+  {
+    "img": "/images/department/mechnical/faculty/Mr_Ali_Nezam.webp",
+    "name": "Mr. Ali Nezam",
+    "batch": "7th & 8th",
+    "email": "alinezam7@gmail.com",
+    "contact": "9709318294"
+  },
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "Mr. Quaiser Suhail",
+    "batch": "7th & 8th",
+    "email": "quaiser2u@gmail.com",
+    "contact": "9534358059"
+  }
+]

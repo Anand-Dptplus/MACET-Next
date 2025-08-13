@@ -1,0 +1,40 @@
+{
+  "labs": [
+    {
+      "src": "/images/department/civileng/Civil.webp",
+      "caption": "Civil Engineering Drawing Lab"
+    },
+    {
+      "src": "/images/department/civileng/Engineering.webp",
+      "caption": "Engineering Geology Lab"
+    },
+    {
+      "src": "/images/department/civileng/Environmental.webp",
+      "caption": "Environmental Engineering Lab"
+    },
+    {
+      "src": "/images/department/civileng/Geotech.webp",
+      "caption": "Geo & Geo-Tech Lab"
+    },
+    {
+      "src": "/images/department/civileng/material.webp",
+      "caption": "Material Testing Lab"
+    },
+    {
+      "src": "/images/department/civileng/Surveying.webp",
+      "caption": "Surveying Lab"
+    },
+    {
+      "src": "/images/department/civileng/Structural.webp",
+      "caption": "Structural Analysis Lab"
+    },
+    {
+      "src": "/images/department/civileng/transport.webp",
+      "caption": "Transportation Engineering"
+    },
+    {
+      "src": "/images/department/civileng/Water.webp",
+      "caption": "Water Resource Lab"
+    }
+  ]
+}

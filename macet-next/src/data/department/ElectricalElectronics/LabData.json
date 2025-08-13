@@ -1,0 +1,28 @@
+{
+  "labs": [
+    {
+      "src": "/images/department/electric/Basic.webp",
+      "caption": "Basic Electrical Engineering lab"
+    },
+    {
+      "src": "/images/department/electric/Control.webp",
+      "caption": "Control System lab"
+    },
+    {
+      "src": "/images/department/electric/Electrical.webp",
+      "caption": "Electrical Machine lab"
+    },
+    {
+      "src": "/images/department/electric/Machinetab.webp",
+      "caption": "Electrical Machine - II lab"
+    },
+    {
+      "src": "/images/department/electric/Microproc.webp",
+      "caption": "Microprocessor lab"
+    },
+    {
+      "src": "/images/department/electric/Power.webp",
+      "caption": "Power Electronics lab"
+    }
+  ]
+}

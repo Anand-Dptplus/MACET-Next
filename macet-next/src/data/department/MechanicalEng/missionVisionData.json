@@ -1,0 +1,18 @@
+{
+  "mission": {
+    "points": [
+      "To develop well equipped laboratories with modern equipment and latest design, simulation and analysis software.",
+      "To facilitate the students, faculties and staff for self-learning by providing them time and facilities in the academic planning.",
+      "To develop employability skills, professional communication and teamwork in graduates and faculty.",
+      "To encourage conduction and participation in seminars and conferences related to research and development, emerging technologies and industrial/entrepreneur practices."
+    ],
+    "image": "/images/macetimages/Mission-img-department.webp"
+  },
+  "vision": {
+    "points": [
+      "Mechanical Engineering Department strives for recognition of its graduate by the potential employers and placement facilitators.",
+      "We envision developing technically competent, ethically grounded, and industry-ready mechanical engineers who can seamlessly integrate into diverse sectors, from manufacturing and automotive to aerospace, energy, and robotics. By continuously enhancing our curriculum and embracing evolving technologies, we aim to bridge the gap between academic knowledge and industry expectations."
+    ],
+    "image": "/images/macetimages/vision-img-department.webp"
+  }
+}

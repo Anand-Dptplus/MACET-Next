@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '@/app/(main)/(pages)/(about)/about-us/page.module.css'
+import styles from '@/app/(main)/(pages)/about/about-us/page.module.css'
 
 const CommonPagesBtn = ({ buttons }) => {
   return (

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mr. Mazhar Eqbal",
+    "degree": "Qualification: M.Tech., B.Sc. Engg.",
+    "role": "Designation: HoD, Asst. Professor",
+    "img": "/images/macetimages/administrative/Mazhar-fp.webp"
+  },
+  {
+    "name": "Prof. (Dr.) Asim kumar",
+    "degree": "Qualification: Ph.D, B.E",
+    "role": "Designation: Professor, Director",
+    "img": "/images/macetimages/Dr-Asim-Kumar.webp"
+  },
+  {
+    "name": "Mr. Amit Kumar",
+    "degree": "Qualification: M.Tech., B.E.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Mr_Amit_Kumar.webp"
+  },
+  {
+    "name": "Dr. Shabbir Hasan",
+    "degree": "Qualification: Ph.D, M.Sc. Engg, B.Sc. Engg.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Dr_Shabbir_Hasan.webp"
+  },
+  {
+    "name": "Mr. Rakesh Ranjan",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Mr_Rakesh_Ranjan.webp"
+  },
+  {
+    "name": "Hasibul Hasan Mansoori",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Hasibul_Hasan_Mansoori.webp"
+  },
+  {
+    "name": "Dr. Md. Sadruddin Ahmad",
+    "degree": "Qualification: Ph.D.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Dr_Md_Sadruddin_Ahmad.webp"
+  },
+  {
+    "name": "Md. Faiz Ahmad",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Md_Faiz_Ahmad.webp"
+  },
+  {
+    "name": "Md. Farooque",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Md_Farooque.webp"
+  },
+  {
+    "name": "Dr. Tajuddin Ali Ahmad",
+    "degree": "Qualification: Ph.D, M.Tech., B.E.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Dr_Tajuddin_Ali_Ahmad.webp"
+  },
+  {
+    "name": "Mr. Ozair Ahmad",
+    "degree": "Qualification: M.Tech, B.E.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Mr_Ozair_Ahmad.webp"
+  },
+  {
+    "name": "Mr. Md. Naushad Akhter",
+    "degree": "Qualification: M.Tech., B.E.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Mr_Md_Naushad Akhter.webp"
+  },
+  {
+    "name": "Mr. Md. Nadeem Enam",
+    "degree": "Qualification: M.Tech., B.Tech.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/CSE/Faculty_Profile/Mr_Md_Nadeem_Enam.webp"
+  },
+  {
+    "name": "Guest Faculty/Temporary",
+    "degree": "Faculty = 9 Nos.",
+    "role": "",
+    "img": "/images/macetimages/user.jpg"
+  }
+]

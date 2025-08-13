@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Dr. Prahalad Kumar",
+    "degree": "Qualification: Ph.D, M.Sc.,B.Sc.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/prahalad.webp"
+  },
+  {
+    "name": "Dr. Motiur Rahman Ansari",
+    "degree": "Qualification: Ph.D, M.Sc., B.Sc.(HONS.)",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Dr_Motiur_Rahman_Ansari.webp"
+  },
+  {
+    "name": "Mr. Khalid Raza",
+    "degree": "Qualification: M.A.,B.A.",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Mr_Khalid_Raza.webp"
+  },
+  {
+    "name": "Dr. Md Kamar Tanbir",
+    "degree": "Qualification: Ph.D,M.Sc",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Dr_Md Kamar_Tanbir.webp"
+  },
+  {
+    "name": "Dr. Sana Firdos Khan",
+    "degree": "Qualification: M.A,Ph.D",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Dr_Sana_Firdos_Khan.webp"
+  },
+  {
+    "name": "Dr. Abu darda",
+    "degree": "Qualification: Ph.D,M.Sc",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Dr_Abu_darda.webp"
+  },
+  {
+    "name": "Mr. Jasim Equbal",
+    "degree": "Qualification: MBA, M.Com",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Mr_Jasim_Equbal.webp"
+  },
+  {
+    "name": "Dr. Md. Sabih Akhtar",
+    "degree": "Qualification: Ph.D, MBA",
+    "role": "Designation: Asst. Professor",
+    "img": "/images/department/humanities/Humanitis-faculty/Dr_Md_Sabih_Akhtar.webp"
+  },
+  {
+    "name": "Guest Faculty/Temporary",
+    "degree": "Faculty = 8 Nos.",
+     "img": "/images/macetimages/user.jpg"
+  }
+]

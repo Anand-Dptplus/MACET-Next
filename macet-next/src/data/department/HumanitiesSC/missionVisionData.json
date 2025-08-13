@@ -1,0 +1,18 @@
+{
+  "mission": {
+    "points": [
+      "To introduce innovative teaching methodologies and evaluation strategies which shall chisel the professional etiquette of the students.",
+      "To inculcate the importance of basic sciences and develop a natural flair for Engineering and Technology which in turn shall mould the student into a competent professional.",
+      "To create an environment that encourages creativity, teamwork, and a spirit of inquiry among students. We aim to build strong moral values and communication skills so that our students not only succeed in their careers but also become responsible and ethical members of society."
+    ],
+    "image": "/images/macetimages/Mission-img-department.webp"
+  },
+  "vision": {
+    "points": [
+      "To inculcate the importance of basic sciences and develop a natural flair for Engineering and Technology which in turn shall mould the student into a competent professional.",
+      "We want to create a learning space where students become curious and enjoy asking questions. By teaching the basics of science clearly, we help students understand how things work. This strong base helps them learn engineering and technology better and use that knowledge in real life.",
+      "Our aim is to help students become skilled, honest, and confident professionals. We give them both classroom learning and hands-on practice so they are ready for real-world challenges. We also want them to keep learning throughout their lives and make a positive difference in the world."
+    ],
+    "image": "/images/macetimages/vision-img-department.webp"
+  }
+}

@@ -109,11 +109,11 @@ useEffect(() => {
                     <IoIosArrowDown  className="dropdown-icon" size={15}/>
                   </div>
                   <ul className="dropdown-menu">
-                    <li><Link href="/about-us" className="dropdown-item">About College</Link></li>
-                    <li><Link href="/about-millat-education-society" className="dropdown-item">About Millat Education Society</Link></li>
-                    <li><Link href="/mission-vision" className="dropdown-item">Vision & Mission</Link></li>
-                    <li><Link href="/governing-body" className="dropdown-item">The Governing Body of MACET</Link></li>
-                    <li><Link href="/college-administration" className="dropdown-item">College Administration</Link></li>                
+                    <li><Link href="/about/about-us" className="dropdown-item">About College</Link></li>
+                    <li><Link href="/about/about-millat-education-society" className="dropdown-item">About Millat Education Society</Link></li>
+                    <li><Link href="/about/mission-vision" className="dropdown-item">Vision & Mission</Link></li>
+                    <li><Link href="/about/governing-body" className="dropdown-item">The Governing Body of MACET</Link></li>
+                    <li><Link href="/about/college-administration" className="dropdown-item">College Administration</Link></li>                
                   </ul>
                 </li>
 
@@ -132,14 +132,13 @@ useEffect(() => {
                         <FaChevronRight size={15}/>
                       </div>  
                       <ul className="dropdown-menu">
-                        <li><Link href="/btech-in-computerscience-and-engineering" className="dropdown-item">Computer Sc. & Engineering</Link></li>
-                        <li><Link href="/btech-in-computerscience-and-engineering-ai-and-ml" className="dropdown-item">Computer Sc. & Engg (AI & ML)</Link></li>
-                        <li><Link href="/btech-in-computerscience-and-engineering-datascience" className="dropdown-item">Computer Sc. & Engg (Data Science)</Link></li>
-                        <li><Link href="/btech-in-computerscience-and-engineering" className="dropdown-item">Computer Sc. & Engg</Link></li>
-                        <li><Link href="/btech-in-civil-engineering" className="dropdown-item">Civil Engineering</Link></li>
-                        <li><Link href="/btech-in-mechanical-engineering" className="dropdown-item">Mechanical Engineering</Link></li>
-                        <li><Link href="/btech-in-electrical-and-electronics-engineering" className="dropdown-item">Electrical and Electronics Engineering</Link></li>
-                        <li><Link href="/humanities-and-sciences" className="dropdown-item">Humanities and Sciences</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering" className="dropdown-item">Computer Sc. & Engineering</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering-ai-and-ml" className="dropdown-item">Computer Sc. & Engg (AI & ML)</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering-datascience" className="dropdown-item">Computer Sc. & Engg (Data Science)</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-civil-engineering" className="dropdown-item">Civil Engineering</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-mechanical-engineering" className="dropdown-item">Mechanical Engineering</Link></li>
+                        <li><Link href="/departments/ugbtech/btech-in-electrical-and-electronics-engineering" className="dropdown-item">Electrical and Electronics Engineering</Link></li>
+                        <li><Link href="/departments/ugbtech/humanities-and-sciences" className="dropdown-item">Humanities and Sciences</Link></li>
                       </ul>
                     </li>
 
@@ -150,9 +149,9 @@ useEffect(() => {
                         <FaChevronRight size={15}/>
                       </div>
                       <ul className="dropdown-menu">
-                          <li><Link href="/diploma-in-computerscience-and-engineering" className="dropdown-item">Computer Science & Engineering</Link></li>
-                          <li><Link href="/diploma-in-civil-engineering" className="dropdown-item">Civil Engineering</Link></li>
-                          <li><Link href="/diploma-in-electrical-engineering" className="dropdown-item">Electrical Engineering</Link></li>
+                          <li><Link href="/departments/diploma/diploma-in-computerscience-and-engineering" className="dropdown-item">Computer Science & Engineering</Link></li>
+                          <li><Link href="/departments/diploma/diploma-in-civil-engineering" className="dropdown-item">Civil Engineering</Link></li>
+                          <li><Link href="/departments/diploma/diploma-in-electrical-engineering" className="dropdown-item">Electrical Engineering</Link></li>
                       </ul>
                     </li>
                   </ul>

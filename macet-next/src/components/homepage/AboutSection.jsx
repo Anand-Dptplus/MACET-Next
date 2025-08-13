@@ -29,7 +29,7 @@ const AboutSection = () => {
                     </p>
                 </div>
                 <div className="btn-group mt-lg-3">
-                    <Link href="about-us" className="tmp-btn btn-green">Read More</Link>
+                    <Link href="/about/about-us" className="tmp-btn btn-green">Read More</Link>
                 </div>
             </div>
         </div>

@@ -1,0 +1,21 @@
+{
+  "mission": {
+    "points": [
+      "To prepare the students with strong fundamental concepts, analytical capability, programming and problem solving skills.",
+      "To develop a modern infrastructure, computing and soft skill and reforming teaching learning process using latest tools, technologies and pedagogies.",
+      "To create and ambience of education in the department through departmental seminars, R & D activities and interaction with professional societies and industries as well as providing ample opportunities in various curricular and co-curricular activities.",
+      "To inculcate universal human values among the students to make them a responsible citizen."
+    ],
+    "image": "/images/macetimages/Mission-img-department.webp"
+  },
+  "vision": {       
+    "points": [
+      "To achieve academic excellence by nurturing well-rounded, competent computer science students.",
+      "To equip students with industry-relevant knowledge and skills that ensure employability and career readiness.",
+      "To foster innovation and creativity for successful entrepreneurship and tech-driven ventures.",
+      "To encourage pursuit of higher education and research for lifelong learning and academic growth.",
+      "To instill ethical values, social responsibility, and a commitment to contribute meaningfully to society and the nation."
+    ],
+    "image": "/images/macetimages/vision-img-department.webp"
+  }
+}

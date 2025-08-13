@@ -66,11 +66,11 @@ export default function Sidebar() {
                 <span>{renderToggleIcon('about')}</span>
               </div>
               <ul className={`submenu ${openMenus['about'] ? 'open' : ''}`}>
-                <li><Link href="/about-us" onClick={closeSidebar} className="sidebar-link">About College</Link></li>
-                <li><Link href="/about-millat-education-society" onClick={closeSidebar} className="sidebar-link">About Millat Education Society</Link></li>
-                <li><Link href="/mission-vision" onClick={closeSidebar} className="sidebar-link">Vision & Mission</Link></li>
-                <li><Link href="/governing-body" onClick={closeSidebar} className="sidebar-link">The Governing Body of MACET</Link></li>
-                <li><Link href="/college-administration" onClick={closeSidebar} className="sidebar-link">College Administration</Link></li>
+                <li><Link href="/about/about-us" onClick={closeSidebar} className="sidebar-link">About College</Link></li>
+                <li><Link href="/about/about-millat-education-society" onClick={closeSidebar} className="sidebar-link">About Millat Education Society</Link></li>
+                <li><Link href="/about/mission-vision" onClick={closeSidebar} className="sidebar-link">Vision & Mission</Link></li>
+                <li><Link href="/about/governing-body" onClick={closeSidebar} className="sidebar-link">The Governing Body of MACET</Link></li>
+                <li><Link href="/about/college-administration" onClick={closeSidebar} className="sidebar-link">College Administration</Link></li>
               </ul>
             </li>
 
@@ -87,14 +87,13 @@ export default function Sidebar() {
                     <span>{renderToggleIcon('departments-ug')}</span>
                   </div>
                   <ul className={`submenu nested ${openMenus['departments-ug'] ? 'open' : ''}`}>
-                    <li><Link href="/btech-in-computerscience-and-engineering" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engineering</Link></li>
-                    <li><Link href="/btech-in-computerscience-and-engineering-ai-and-ml" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engg (AI & ML)</Link></li>
-                    <li><Link href="/btech-in-computerscience-and-engineering-datascience" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engg (Data Science)</Link></li>
-                    <li><Link href="/btech-in-computerscience-and-engineering" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engg</Link></li>
-                    <li><Link href="/btech-in-civil-engineering" onClick={closeSidebar} className="sidebar-link">Civil Engineering</Link></li>
-                    <li><Link href="/btech-in-mechanical-engineering" onClick={closeSidebar} className="sidebar-link">Mechanical Engineering</Link></li>
-                    <li><Link href="/btech-in-electrical-and-electronics-engineering" onClick={closeSidebar} className="sidebar-link">Electrical and Electronics Engineering</Link></li>
-                    <li><Link href="/humanities-and-sciences" onClick={closeSidebar} className="sidebar-link">Humanities and Sciences</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engineering</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering-ai-and-ml" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engg (AI & ML)</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-computerscience-and-engineering-datascience" onClick={closeSidebar} className="sidebar-link">Computer Sc. & Engg (Data Science)</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-civil-engineering" onClick={closeSidebar} className="sidebar-link">Civil Engineering</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-mechanical-engineering" onClick={closeSidebar} className="sidebar-link">Mechanical Engineering</Link></li>
+                    <li><Link href="/departments/ugbtech/btech-in-electrical-and-electronics-engineering" onClick={closeSidebar} className="sidebar-link">Electrical and Electronics Engineering</Link></li>
+                    <li><Link href="/departments/ugbtech/humanities-and-sciences" onClick={closeSidebar} className="sidebar-link">Humanities and Sciences</Link></li>
                   </ul>
                 </li>
 
@@ -104,9 +103,9 @@ export default function Sidebar() {
                     <span>{renderToggleIcon('departments-diploma')}</span>
                   </div>
                   <ul className={`submenu nested ${openMenus['departments-diploma'] ? 'open' : ''}`}>
-                    <li><Link href="/diploma-in-computerscience-and-engineering" onClick={closeSidebar} className="sidebar-link">Computer Science & Engineering</Link></li>
-                    <li><Link href="/diploma-in-civil-engineering" onClick={closeSidebar} className="sidebar-link">Civil Engineering</Link></li>
-                    <li><Link href="/diploma-in-electrical-engineering" onClick={closeSidebar} className="sidebar-link">Electrical Engineering</Link></li>
+                    <li><Link href="/departments/diploma/diploma-in-computerscience-and-engineering" onClick={closeSidebar} className="sidebar-link">Computer Science & Engineering</Link></li>
+                    <li><Link href="/departments/diploma/diploma-in-civil-engineering" onClick={closeSidebar} className="sidebar-link">Civil Engineering</Link></li>
+                    <li><Link href="/departments/diploma/diploma-in-electrical-engineering" onClick={closeSidebar} className="sidebar-link">Electrical Engineering</Link></li>
                   </ul>
                 </li>
               </ul>

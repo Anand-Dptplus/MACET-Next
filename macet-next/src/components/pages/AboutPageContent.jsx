@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/app/(main)/(pages)/(about)/about-us/page.module.css'
+import styles from '@/app/(main)/(pages)/about/about-us/page.module.css'
 import Image from 'next/image'
 
 const AboutPageContent = () => {

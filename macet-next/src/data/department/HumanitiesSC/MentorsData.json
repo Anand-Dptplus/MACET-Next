@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/images/macetimages/administrative/Mazhar-fp.webp",
+    "name": "Mr. Mazhar Eqbal",
+    "batch": "2020",
+    "email": "mazhar.macet@gmail.com",
+    "contact": "9835291445"
+  },
+  {
+    "img": "/images/department/CSE/mentors/AmitK.jpg",
+    "name": "Mr. Amit Kumar",
+    "batch": "2021",
+    "email": "amitk.macet@gmail.com",
+    "contact": "8404934020"
+  },
+  {
+    "img": "/images/department/CSE/Faculty_Profile/Dr_Shabbir_Hasan.webp",
+    "name": "Dr. Shabbir Hasan",
+    "batch": "2021",
+    "email": "shabbir1971@rediffmail.com",
+    "contact": "9939484926"
+  },
+  {
+    "img": "/images/macetimages/mentors-defaul-img.png",
+    "name": "Mr. H. H. Mansoori",
+    "batch": "2022",
+    "email": "hasib.mansoori@gmail.com",
+    "contact": "9026165597"
+  }
+]

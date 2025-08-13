@@ -1,0 +1,28 @@
+{
+  "labs": [
+    {
+      "src": "/images/department/CSE/lab_1.webp",
+      "caption": "Computer Science lab 1"
+    },
+    {
+      "src": "/images/department/CSE/lab_2.webp",
+      "caption": "Computer Science lab 2"
+    },
+    {
+      "src": "/images/department/CSE/lab_3.webp",
+      "caption": "Computer Science lab 3"
+    },
+    {
+      "src": "/images/department/CSE/lab_4.webp",
+      "caption": "Computer Science lab 4"
+    },
+    {
+      "src": "/images/department/CSE/lab_5.webp",
+      "caption": "  AI & ML Lab"
+    },
+    {
+      "src": "/images/department/CSE/lab_6.webp",
+      "caption": "CSE (Data Science) Lab"
+    }
+  ]
+}
