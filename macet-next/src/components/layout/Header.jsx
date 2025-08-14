@@ -165,13 +165,13 @@ useEffect(() => {
                   </div>
                   <ul className="dropdown-menu">
                     <li><Link href="/central-library" className="dropdown-item">Central Library</Link></li>
-                    <li><Link href="/sports" className="dropdown-item">Sports</Link></li>
-                    <li><Link href="/transport" className="dropdown-item">Transport</Link></li>
-                    <li><Link href="/laboratories" className="dropdown-item">Laboratories</Link></li>
-                    <li><Link href="/canteen" className="dropdown-item">Canteen</Link></li>  
-                    <li><Link href="/scholarship" className="dropdown-item">Scholarship</Link></li>   
-                    <li><Link href="/language-lab" className="dropdown-item">Language Lab</Link></li>   
-                    <li><Link href="/mentoring-system" className="dropdown-item">Mentoring System</Link></li>               
+                    <li><Link href="/facilities/sports" className="dropdown-item">Sports</Link></li>
+                    <li><Link href="/facilities/transport" className="dropdown-item">Transport</Link></li>
+                    <li><Link href="/facilities/laboratories" className="dropdown-item">Laboratories</Link></li>
+                    <li><Link href="/facilities/canteen" className="dropdown-item">Canteen</Link></li>  
+                    <li><Link href="/facilities/scholarship" className="dropdown-item">Scholarship</Link></li>   
+                    <li><Link href="/facilities/language-lab" className="dropdown-item">Language Lab</Link></li>   
+                    <li><Link href="/facilities/mentoring-system" className="dropdown-item">Mentoring System</Link></li>               
                   </ul>
                 </li>
 

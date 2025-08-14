@@ -1,0 +1,14 @@
+{
+  "mission": {
+    "points": [
+      "The department of Electrical Engineering was established in the year 2023. The department offers Diploma program with 60 intakes. The department is equipped with up to date and well developed laboratories. Some important laboratories are Electrical Machine Lab, Control System Lab, Microprocessor Lab, Power Electronics Lab etc. The department has highly qualified faculty members with good research in the area of renewable energy, electrical vehicle and power system etc. The department also has very experienced lab assistants to help the students with their lab works."
+    ],
+    "image": "/images/macetimages/Mission-img-department.webp"
+  },
+  "vision": {
+    "points": [
+      "To impart quality education that develops the capabilities for problem solving, effective communication and ethical sensitivity, thus bringing out competent Electrical & Electronics Engineers with leadership role in industry, business and society."
+    ],
+    "image": "/images/macetimages/vision-img-department.webp"
+  }
+}

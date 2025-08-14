@@ -119,13 +119,13 @@ export default function Sidebar() {
               </div>
               <ul className={`submenu ${openMenus['facilities'] ? 'open' : ''}`}>
                 <li><Link href="/central-library" onClick={closeSidebar} className="sidebar-link">Central Library</Link></li>
-                <li><Link href="/sports" onClick={closeSidebar} className="sidebar-link">Sports</Link></li>
-                <li><Link href="/transport" onClick={closeSidebar} className="sidebar-link">Transport</Link></li>
-                <li><Link href="/laboratories" onClick={closeSidebar} className="sidebar-link">Laboratories</Link></li>
-                <li><Link href="/canteen" onClick={closeSidebar} className="sidebar-link">Canteen</Link></li>
-                <li><Link href="/scholarship" onClick={closeSidebar} className="sidebar-link">Scholarship</Link></li>
-                <li><Link href="/language-lab" onClick={closeSidebar} className="sidebar-link">Language Lab</Link></li>
-                <li><Link href="/mentoring-system" onClick={closeSidebar} className="sidebar-link">Mentoring System</Link></li>
+                <li><Link href="/facilities/sports" onClick={closeSidebar} className="sidebar-link">Sports</Link></li>
+                <li><Link href="/facilities/transport" onClick={closeSidebar} className="sidebar-link">Transport</Link></li>
+                <li><Link href="/facilities/laboratories" onClick={closeSidebar} className="sidebar-link">Laboratories</Link></li>
+                <li><Link href="/facilities/canteen" onClick={closeSidebar} className="sidebar-link">Canteen</Link></li>
+                <li><Link href="/facilities/scholarship" onClick={closeSidebar} className="sidebar-link">Scholarship</Link></li>
+                <li><Link href="/facilities/language-lab" onClick={closeSidebar} className="sidebar-link">Language Lab</Link></li>
+                <li><Link href="/facilities/mentoring-system" onClick={closeSidebar} className="sidebar-link">Mentoring System</Link></li>
               </ul>
             </li>
 

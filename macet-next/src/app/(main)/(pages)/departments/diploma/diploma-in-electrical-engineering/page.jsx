@@ -14,27 +14,27 @@ import { FaUserTie } from "react-icons/fa";
 import { FaBookBookmark } from "react-icons/fa6";
 import { MdContactMail } from "react-icons/md";
 const AboutCSE = dynamic(() => import("@/components/pages/Department/ComputerScEng/AboutCSE"), {loading: () => <SharedLoader />});
-import aboutCSEData from '@/data/department/CivilEngineering/aboutCSEData.json';
+import aboutCSEData from '@/data/department/ElectricalElectronics/aboutCSEData.json';
 const MissionVision = dynamic(() => import("@/components/pages/Department/ComputerScEng/MissionVision"), {loading: () => <SharedLoader />});
-import missionVisionData from '@/data/department/CivilEngineering/missionVisionData.json';
+import missionVisionData from '@/data/diplomadepartment/ElectricalElectronics/missionVisionData.json';
 const Lab = dynamic(() => import("@/components/pages/Department/ComputerScEng/Lab"), {loading: () => <SharedLoader />});
-import labData from '@/data/department/CivilEngineering/LabData.json';
+import labData from '@/data/department/ElectricalElectronics/LabData.json';
 const GoverningBodyContent = dynamic(() => import("@/components/pages/GoverningBodyContent"), {loading: () => <SharedLoader />})
-import faculty from '@/data/department/CivilEngineering/faculty.json'
-const MentorCard = dynamic(() => import("@/components/pages/Department/CivilEng/MentorCard"), {loading: () => <SharedLoader />})
-import MentorsData from '@/data/department/CivilEngineering/MentorsData.json'
+import faculty from '@/data/diplomadepartment/ElectricalElectronics/faculty.json'
+const MentorCard = dynamic(() => import("@/components/pages/department/ComputerScEng/MentorCard"), {loading: () => <SharedLoader />})
+import MentorsData from '@/data/department/ElectricalElectronics/MentorsData.json'
 const GetInTouch = dynamic(() => import("@/components/pages/Department/ComputerScEng/GetInTouch"), {loading: () => <SharedLoader />})
-import GetInTouchData from '@/data/department/CivilEngineering/GetInTouchData.json'
+import GetInTouchData from '@/data/department/ElectricalElectronics/GetInTouchData.json'
 
 
 const page = () => {
     const tabs = [
     {
-      id: "AboutCE",
-      label: "About CE",
+      id: "AboutEEE",
+      label: "About EEE",
       icon: <IoEye size={21} />,
       content: (
-           <Suspense fallback={<div>About CSE</div>}>
+           <Suspense fallback={<div>Loading Overview...</div>}>
               <AboutCSE data={aboutCSEData}/>
            </Suspense>
       ),
@@ -45,7 +45,7 @@ const page = () => {
       icon: <FaBullseye  size={18} />,
       content: (
         <>
-          <Suspense fallback={<div>Mission & Vision</div>}>
+          <Suspense fallback={<div>Loading Courses...</div>}>
            <MissionVision mission={missionVisionData.mission} vision={missionVisionData.vision} />
            </Suspense>
         </>
@@ -57,7 +57,7 @@ const page = () => {
       icon: <ImLab  size={18} />, 
       content: (
         <>
-          <Suspense fallback={<div>Labs</div>}>
+          <Suspense fallback={<div>Loading Insfrastructure...</div>}>
            <Lab data={labData}/>
           </Suspense>
         </>
@@ -82,7 +82,7 @@ const page = () => {
       content: (
         <> 
            <Suspense fallback={<div>Loading Faculty Profile...</div>}>
-            <GoverningBodyContent members={faculty} cardHeight={375}/>
+            <GoverningBodyContent members={faculty} cardHeight={365}/>
           </Suspense>
         </>
       ),
@@ -93,7 +93,7 @@ const page = () => {
       icon: <Image src="/images/icons/department/mentor.png" alt="Mentor" width={20} height={20}/>,
       content: (
         <>
-          <Suspense fallback={<div>Loading Mentor...</div>}>
+          <Suspense fallback={<div>Loading Faculty Profile...</div>}>
              <MentorCard mentorsdata={MentorsData}/>
           </Suspense>
         </>
@@ -150,7 +150,7 @@ const page = () => {
   ];
   return (
     <>
-      <Breadcumbs title="B.Tech in Civil Engineering" />
+      <Breadcumbs title="Diploma in Electrical Engineering" />
         <NavTabs tabs={tabs} />
     </>
   )

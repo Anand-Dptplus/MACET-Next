@@ -4,8 +4,6 @@ import dynamic from 'next/dynamic';
 import { Suspense } from 'react'
 const Breadcumbs = dynamic(() => import('@/components/Breadcumbs'), { loading: () => <SharedLoader /> });
 import NavTabs from '@/components/NavTabs';
-import { FaSearch } from "react-icons/fa";
-import { MdEventAvailable } from "react-icons/md";
 import { IoEye } from "react-icons/io5";
 import { FaBullseye } from "react-icons/fa";
 import { ImLab } from "react-icons/im";
@@ -24,7 +22,7 @@ import labData from '@/data/department/CivilEngineering/LabData.json';
 const GoverningBodyContent = dynamic(() => import("@/components/pages/GoverningBodyContent"), {loading: () => <SharedLoader />})
 import faculty from '@/data/department/CivilEngineering/faculty.json'
 const MentorCard = dynamic(() => import("@/components/pages/Department/CivilEng/MentorCard"), {loading: () => <SharedLoader />})
-import MentorsData from '@/data/department/CivilEngineering/MentorsData.json'
+import MentorsData from '@/data/diplomadepartment/CivilEng/MentorsData.json'
 const GetInTouch = dynamic(() => import("@/components/pages/Department/ComputerScEng/GetInTouch"), {loading: () => <SharedLoader />})
 import GetInTouchData from '@/data/department/CivilEngineering/GetInTouchData.json'
 
@@ -84,7 +82,7 @@ const page = () => {
       content: (
         <> 
            <Suspense fallback={<div>Loading Faculty Profile...</div>}>
-            <GoverningBodyContent members={faculty} cardHeight={350}/>
+            <GoverningBodyContent members={faculty} cardHeight={375}/>
           </Suspense>
         </>
       ),
