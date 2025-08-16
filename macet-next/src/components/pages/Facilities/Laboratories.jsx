@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from "react";
-import styles from "@/app/(main)/(pages)/facilities/transport/page.module.css";
+import styles from "@/app/(main)/(pages)/facilities/laboratories/page.module.css";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -34,15 +34,15 @@ const categories = [
   "Central Lab",
   "AIML & DS Lab", 
   "Civil Lab",
-  "ECE Lab",
   "EEE Lab",
   "Mechanical Lab",
   "Workshop Lab"
 ];
 
 const Sports = () => {
-    const [lightboxIndex, setLightboxIndex] = useState(-1);
     const [activeCategory, setActiveCategory] = useState("All");
+    const [index, setIndex] = useState(0);
+    const [open, setOpen] = useState(false);
 
   const filteredImages =
     activeCategory === "All"
@@ -82,54 +82,52 @@ const Sports = () => {
             </div>
              <div className="col-12">
              {/* Nav Pills */}
-                <ul className={`nav nav-pills justify-content-center justify-content-lg-start mb-4 ${styles.cssNavPills}`}>
-                    {categories.map((cat) => (
-                    <li className="nav-item" key={cat}>
-                        <button
-                        className={`nav-link ${styles.cssNavLink} ${activeCategory === cat ? "active" : ""}`}
-                        onClick={() => setActiveCategory(cat)}
-                        >
-                        {cat}
-                        </button>
-                    </li>
-                    ))}
-                </ul>
+              <ul className={`nav nav-pills justify-content-center justify-content-lg-start mb-4 ${styles.cssNavPills}`}>
+                  {categories.map((cat) => (
+                      <li className={`nav-item ${styles.cssNavItem}`} key={cat}>
+                          <button
+                              className={`nav-link ${styles.cssNavLink} ${activeCategory === cat ? styles.active : ""}`}
+                              onClick={() => setActiveCategory(cat)}
+                          >
+                              {cat}
+                          </button>
+                      </li>
+                  ))}
+              </ul>
                     {/* Images Grid */}
-                            <div className="row g-4">
-                            {filteredImages.map((img, index) => (
-                                <div className="col-md-3 col-12" key={index}>
-                                <div
-                                    className={`card shadow-sm h-100 ${styles.cssLabsImageCont}`}
-                                    style={{ cursor: "pointer"}}
-                                    onClick={() => setLightboxIndex(index)}
-                                >
-                                    <Image
-                                    src={img.path}
-                                    alt={img.caption}
-                                    className="card-img-top"
-                                    width={400}
-                                    height={300}
-                                    style={{ objectFit: "cover", height: "100%", width: "100%" }}
-                                    />
-                                     <div className={styles.cssOverlayLabIcon}>
-                                        <FaEye size={24}/>
-                                    </div>
+                     <div className="row g-4">
+                          {filteredImages.map((lab,index) => (
+                            <div className="col-12 col-lg-3" key={index}>
+                              <div 
+                                className={styles.cssLabsImageCont} 
+                                onClick={() => { setIndex(index); setOpen(true); }}
+                                style={{ cursor: 'pointer' }}
+                              >       
+                                <img
+                                  src={lab.path}
+                                  alt={lab.caption}
+                                  title={lab.caption}
+                                  className="img-fluid w-100 rounded"
+                                />        
+                                <div className={styles.cssOverlayLabIcon}>
+                                  <FaEye color='white' size={24}/>
                                 </div>
-                                </div>
-                            ))}
-                            {filteredImages.length === 0 && (
-                                <div className="text-center text-muted">No images available</div>
-                            )}
+                              </div>
+                            </div>
+                          ))}
                             </div>
 
-                            <Lightbox
-                                open={lightboxIndex >= 0}
-                                close={() => setLightboxIndex(-1)}
-                                slides={filteredImages.map((img) => ({
+                             <Lightbox
+                              open={open}
+                              close={() => setOpen(false)}
+                              slides={filteredImages.map((img) => ({
                                     src: img.path,
                                     title: img.caption,
                                 }))}
-                                index={lightboxIndex}
+                              index={index}
+                              controller={{
+                                  closeOnBackdropClick: true,  
+                                }}
                             />
                   </div>
                 </div>

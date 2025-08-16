@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import { FaEye } from "react-icons/fa";
-import { HiComputerDesktop } from "react-icons/hi2";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import style from '@/app/(main)/(pages)/departments/ugbtech/btech-in-computerscience-and-engineering/page.module.css';

@@ -29,10 +29,6 @@
     white-space: nowrap;
     color: #7a2633;
 }
-.cssNavPills .cssNavLink.active{
-    color: white;
-    background-color: var(--my-secondary-red) !important;
-}
 
 .cssLabsImageCont {
   position: relative;
@@ -73,6 +69,47 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+.cssLabsImageCont:hover .cssOverlayLabIcon {
+  opacity: 1;
+}
+
+.cssNavLink {
+    padding: 9px 13px;
+    color: #3c3d8b;
+    box-shadow: #00000029 0 1px 4px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.cssNavLink.active {
+    color: white !important;
+    background: var(--my-secondary-color) !important;
+}
+
+.cssNavItem {
+    position: relative;
+    margin: 10px 20px 10px 0;
+}
+.cssNavLink:hover{
+  background-color: var(--my-secondary-color);
+  color: white;
+}
+
+.cssLabsImageCont {
+  position: relative;
+  overflow: hidden;
+}
+.cssLabsImageCont img {
+  transition: transform 0.4s ease-in-out;
+}
+.cssLabsImageCont:hover img {
+  transform: scale(1.1);
+}
+.cssOverlayLabIcon {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 .cssLabsImageCont:hover .cssOverlayLabIcon {
   opacity: 1;
 }
