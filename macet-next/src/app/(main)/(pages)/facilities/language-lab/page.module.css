@@ -1,0 +1,31 @@
+.cssContentText p{
+    color: #4e4e4e;
+    text-align: justify;
+    margin-bottom: 6px;
+}
+.cssGlanceSportsSection{
+    background: #fff6f6;
+    padding-top: 50px;
+}
+
+.horizontalRoute{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fdf3f5;
+    border: 1px solid #7a2633;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 0;
+    box-shadow: 0 4px 8px #0000001a;
+    align-items: center;
+}
+.horizontalRoute span:nth-child(odd) {
+    font-weight: 700;
+}
+.horizontalRoute span{
+    white-space: nowrap;
+    color: #7a2633;
+}
